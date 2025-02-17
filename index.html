@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang cá nhân</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Nếu bạn muốn đặt ảnh nền cho trang, hãy cập nhật đường dẫn bên dưới */
+    body {
+      background-image: url('images/0.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="flex justify-center items-center min-h-screen">
+  <!-- Container chính với nền trong suốt -->
+  <div class="bg-transparent p-6 rounded-2xl shadow-xl text-center w-96">
+    <!-- Avatar -->
+    <img src="images/1.png" alt="Avatar" class="w-24 h-24 mx-auto rounded-full border-4 border-white shadow-md">
+    <h1 class="text-xl font-bold mt-4">Nguyễn Bích Ngọc</h1>
+    
+    <!-- Các ô liên kết (giữ màu nền riêng) -->
+    <div class="mt-4 space-y-3">
+      <a href="tel:0966423121" class="flex items-center justify-center bg-gray-200 p-3 rounded-xl shadow">
+        <img src="images/2.png" alt="Phone" class="w-6 h-6 mr-2">0966423121
+      </a>
+      <a href="https://www.facebook.com/ngoc2004tn" target="_blank" class="flex items-center justify-center bg-gray-200 p-3 rounded-xl shadow">
+        <img src="images/3.png" alt="Facebook" class="w-6 h-6 mr-2"> Facebook
+      </a>
+      <a href="https://www.instagram.com/_nq.bnogc/?hl=vi" target="_blank" class="flex items-center justify-center bg-gray-200 p-3 rounded-xl shadow">
+        <img src="images/4.png" alt="Instagram" class="w-6 h-6 mr-2"> Instagram
+      </a>
+    </div>
+
+    <!-- Nút chuyển khoản -->
+    <div class="mt-4">
+      <a href="mbbank://payment?account=0966423121" class="flex items-center justify-center bg-gray-200 p-3 rounded-xl shadow">
+        💰Chuyển khoản ngay
+      </a>
+    </div>
+
+    <!-- Ảnh trung gian -->
+    <div class="mt-6">
+      <img src="images/6.png" alt="Middle Image" class="w-20 mt-20 mx-auto rounded-xl shadow">
+    </div> 
+  </div>
+</body>
+</html>
